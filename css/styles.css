@@ -1,0 +1,16 @@
+body{
+  background-color: #EAF6F6;
+}
+
+hr{
+  /* border-style: dotted none none; or              /* 1->all 4 sides*/
+    border-style: none;                              /*2-> 1st top and bottom  2nd->left/right*/
+    border-top-style: dotted;
+    width: 5%;
+    border-color: grey;
+    border-width: 5px;
+                                                /*3->1st top  2ns->left and right  3rd->bottom*/
+  }                                              /*4-> top right bottom left*/
+h1,h3{
+  color: #66BFBF;
+}
